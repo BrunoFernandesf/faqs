@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "work-sans";
+    src: url("../fonts/static/WorkSans-Regular.ttf")
+}
+
+*{
+    font-family: work-sans;
+    font-size: 16px;
+}
+
+.background {
+    background-image: url("../images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faqs {
+    background-color: white;
+    width: 50%;
+    height: 75%;
+    border-radius: 3%;
+
+}
+
+.faqs-title {
+    display: flex;
+}
+
+.FAQs {
+    font-size: 4rem;
+    color: rgb(59, 8, 59);
+}
+
+.faqs-q-question{
+    display: flex;
+}
+
+.faq-aswers {
+    display: none;
+}
