@@ -12,6 +12,7 @@
     background-image: url("../images/background-pattern-desktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: rgb(235, 198, 235);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -21,10 +22,10 @@
 
 .faqs {
     background-color: white;
-    width: 50%;
-    height: 75%;
     border-radius: 3%;
-
+    padding: 0% 2% 5% 2%;
+    width: 40%;
+    height: auto;
 }
 
 .faqs-title {
@@ -38,8 +39,17 @@
 
 .faqs-q-question{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    color: rgb(59, 8, 59);
+}
+
+.faqs-q {
+    border-bottom: 1px solid rgb(228, 215, 215);
 }
 
 .faq-aswers {
     display: none;
+    
 }
